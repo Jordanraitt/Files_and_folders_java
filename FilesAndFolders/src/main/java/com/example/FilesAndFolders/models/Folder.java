@@ -15,7 +15,7 @@ public class Folder {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column
+    @Column(name  = "title")
     private String title;
 
     @JsonIgnore
